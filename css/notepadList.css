@@ -1,0 +1,99 @@
+.userIf{
+	background-color: rgba(17, 162, 40, 0.8);
+	box-shadow: 0 0 25px #11a20a;
+}
+
+nav ul {
+	background-color: #067600;
+}
+
+nav li {
+	border-left: 1px solid #057100;
+	box-shadow: 0px 0px 5px #057100;
+}
+
+.notepadList{
+	width: 600px;
+	min-height: 500px;
+	background: rgba(252,242,207,0.9);
+	box-shadow: 0 0 5px white;
+	margin: 0 auto;
+	padding: 50px 100px;
+	position: relative;
+}
+
+.listTitle{
+	display: block;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: darkgray;
+	text-shadow: 0 0 3px white;
+	font-size: 20px;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+.myNotepadList{
+	width: 630px;
+	padding: 10px 0;
+	font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+	cursor: pointer;
+}
+
+.myNotepadList:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+
+.oneNpdList{
+	font-size: 18px;
+}
+
+.oneNpdDate{
+	display: block;
+	color: gray;
+	float: right;
+	font-size: 15px;
+	padding: 0 5px;
+}
+
+.oneNpdEdit,.oneNpdDel{
+	color: gray;
+	font-size: 15px;
+	padding: 0 7px;
+	margin-top: -31px;
+	position: absolute;
+	right: 230px;
+	cursor: pointer;
+}
+
+.oneNpdDel{
+	position: absolute;
+	right: 180px;
+}
+
+.oneNpdEdit:hover,.oneNpdDel:hover{
+	color: white;
+	background-color: red;
+	border-radius: 7px;
+}
+
+.DelAllNote{
+	width: 125px;
+	height: 25px; 
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 18px;
+	font-family: "幼圆";
+	cursor: pointer;
+	float: right;
+	background-color: darkred;
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+}
+
+.DelAllNote:hover{
+	background-color: red;
+}

@@ -1,0 +1,153 @@
+body{
+	background: none;
+}
+
+.loginAndReg {
+	display: none;
+	width: 100%;
+	min-width: 1000px;
+	position: absolute;
+	top: 0;
+	background-image: url(../img/2015122564700245.jpg);
+	background-size: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.loginAndRegLogo {
+	height: 300px;
+	margin-top: 200px;
+	margin-left: -26%;
+	float: left;
+}
+
+.notepadLogin,
+.notepadRegister {
+	height: 300px;
+	width: 400px;
+	margin-top: 200px;
+	margin-left: 50px;
+	float: left;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 25px;
+	border: 2px solid cadetblue;
+	font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+	display: none;
+	overflow: hidden;
+}
+
+.loginTab,
+.registerTab {
+	width: 199.5px;
+	height: 50px;
+	float: left;
+	color: cadetblue;
+	background-color: white;
+	line-height: 50px;
+	font-size: 18px;
+	border-bottom: 1px solid cadetblue;
+	text-align: center;
+	cursor: pointer;
+}
+
+.loginTabBody,
+.registerTabBody{
+	height: 164px;
+	width: 300px;
+	float: left;
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	padding: 43px 50px;
+}
+
+.loginTabBody input,
+.registerTabBody input {
+	margin-top: 15px;
+	height: 25px;
+	width: 220px;
+}
+
+.loginTabBody input[type=submit],
+.registerTabBody input[type=submit],
+.Tourist input[type=submit] {
+	margin: 0 10px;
+	margin-top: 20px;
+	height: 35px;
+	width: 100px;
+	background-color: cadetblue;
+	border-radius: 10px;
+	color: white;
+	font-size: 17px;
+	font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+	cursor: pointer;
+}
+
+.Tourist {
+	width: 100px;
+	display: block;
+	margin: 10px auto;
+}
+
+.Tourist img {
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+}
+
+.TouristID {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Tourist input[type=submit] {
+	margin: 10px 0;
+}
+
+.loginTabBody a {
+	font-size: 14px;
+}
+
+.notepadRegister{
+	display: none;
+}
+
+.registerTab {
+	width: 400px;
+	cursor: auto;
+}
+
+.registerTabBody {
+	height: 204px;
+	width: 400px;
+	padding: 23px 45px;
+}
+
+.registerTabBody input {
+	width: 200px;
+}
+
+.registerTabBody input[type=submit] {
+	width: 270px;
+}
+
+#enPage .loginTabBody,
+#enPage .registerTabBody{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#enPage .loginTabBody input,
+#enPage .registerTabBody input {
+	width: 200px;
+}
+
+#enPage .TouristLogin {
+	float: left;
+	margin: 0px 53px;
+}
+
+#enPage .registerTabBody input[type=submit] {
+	width: 270px;
+}

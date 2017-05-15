@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/notepadBG.jpg);
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	height: 70px;
+	width: 100%;
+	min-width: 1000px;
+	background-image: url(../img/header-bg.jpg);
+	background-size: 100% 70px;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+}
+
+header a {
+	color: black;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	line-height: 50px;
+	text-shadow: 0px 0px 8px white;
+	display: block;
+	height: 50px;
+	float: left;
+	margin: 10px 5px;
+}
+
+.headerLeft {
+	width: 300px;
+	float: left;
+	margin-left: 50px;
+}
+
+.headerLeft img {
+	height: 50px;
+}
+
+.headerLeft a {
+	font-size: 20px;
+}
+
+.headerLeft a:hover {
+	text-decoration: none;
+}
+
+.headerRight {
+	width: 250px;
+	float: right;
+	margin-right: 50px;
+}
+
+.headerRight a {
+	font-size: 15px;
+	float: right;
+}
+
+.headerRight hr {
+	width: 2px;
+	height: 20px;
+	background-color: black;
+	border: none;
+	display: block;
+	float: right;
+	margin: 25px 5px;
+}
+
+.notepadPage {
+	display: none;
+	width: 100%;
+	min-width: 1000px;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	padding-bottom: 100px;
+}
+
+#zhCnPage {
+	display: block;
+}
+
+nav {
+	width: 550px;
+	height: 100px;
+	margin: 50px auto;
+	margin-top: 150px;
+}
+
+.userIf {
+	width: 100px;
+	height: 100px;
+	float: left;
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	background-color: rgba(255, 120, 0, 0.8);
+	box-shadow: 0 0 25px #9a4b05;
+}
+
+.userIf img {
+	height: 75px;
+	width: 75px;
+	display: block;
+	margin: 5px auto;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+.userIf a {
+	display: block;
+	margin: 0 auto;
+	width: 85px;
+	color: white;
+	text-shadow: 0 0 2px black;
+	letter-spacing: 0.1em;
+}
+
+nav ul {
+	margin-top: 55px;
+	float: right;
+	background-color: rgba(255, 120, 0, 1);
+	box-shadow: 0 0 25px white;
+}
+
+nav li {
+	height: 25px;
+	width: 100px;
+	float: left;
+	list-style: none;
+	border-left: 1px solid #693100;
+	box-shadow: 0px 0px 5px #693100;
+	color: white;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	text-align: center;
+	padding: 8px 0;
+	cursor: pointer;
+}
+
+#Mobile {
+	display: none;
+	width: 100%;
+}
+
+#Mobile span {
+	width: 350px;
+	display: block;
+	margin: 200px auto;
+	margin-bottom: 0;
+	font-size: 25px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	line-height: 50px;
+	text-shadow: 3px 2px 5px white;
+}
+
+#MobileTime {
+	width: 360px;
+	color: black;
+	display: block;
+	margin: 20px auto;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	line-height: 50px;
+	text-shadow: 0px 0px 5px white;
+}
+
+footer {
+	height: 50px;
+	width: 100%;
+	min-width: 1000px;
+	background-color: #261100;
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+}
+
+footer span {
+	color: white;
+	font-size: 13px;
+	width: 500px;
+	margin: 18px auto;
+	display: block;
+}
+
+footer a {
+	color: white;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>网络记事应用</title>
+		<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/json2.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/loginAndRegister.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="headerLeft">
+				<a href="index.html"><img src="img/logo.png" /></a>
+				<a href="index.html">网络记事应用</a>
+			</div>
+			<div class="headerRight">
+				<a id="changeStyle" class="register">注册</a>
+				<hr />
+				<a id="changeMobile">手机版</a>
+				<hr />
+				<a id="changeLang">English</a>
+			</div>
+		</header>
+		<div id="zhCnPage" class="loginAndReg">
+			<img src="img/logoAndText.png" / alt="logo" class="loginAndRegLogo">
+			<div class="notepadLogin">
+				<div class="loginTab">账号密码登录</div>
+				<div class="loginTab">游客登录</div>
+				<div class="loginTabBody">
+					<!--<form action="#" method="post">-->
+					账号：&emsp;
+					<input type="text" name="username" placeholder="请输入用户名" />
+					<br /> 密码：&emsp;
+					<input type="password" name="password" placeholder="请输入密码" />
+					<br />
+					<input type="submit" value="登录" class="IDlogin" />
+					<a class="registered">还没有账号？点击这里注册</a>
+					<!--</form>-->
+				</div>
+				<div class="loginTabBody">
+					已分配游客号：
+					<br />
+					<span class="Tourist">
+						<img src="img/userpic.jpg" />
+						<span class="TouristID">ID:45906</span>
+						<input type="submit" value="游客登录" class="TouristLogin" />
+					</span>
+				</div>
+			</div>
+			<div class="notepadRegister">
+				<div class="registerTab">注册账号</div>
+				<div class="registerTabBody">
+					<!--<form action="#" method="post">-->
+					账&emsp;&emsp;号：&ensp;
+					<input type="text" name="username" placeholder="请输入用户名" />
+					<br /> 密&emsp;&emsp;码：&ensp;
+					<input type="password" name="password" placeholder="请输入密码" />
+					<br /> 确认密码：&ensp;
+					<input type="password" name="password" placeholder="请再次输入密码" />
+					<br />
+					<input type="submit" value="完成注册" class="login" />
+					<!--</form>-->
+				</div>
+			</div>
+		</div>
+		<div id="enPage" class="loginAndReg">
+			<img src="img/logoAndText.png" / alt="logo" class="loginAndRegLogo">
+			<div class="notepadLogin">
+				<div class="loginTab">Different ID</div>
+				<div class="loginTab">Guest ID</div>
+				<div class="loginTabBody">
+					<!--<form action="#" method="post">-->
+					userID:&emsp;&ensp;
+					<input type="text" name="username" placeholder="ID/username" />
+					<br /> password:
+					<input type="password" name="password" placeholder="password" />
+					<br />
+					<input type="submit" value="login" class="IDlogin" />
+					<a class="register">register</a>
+					<!--</form>-->
+				</div>
+				<div class="loginTabBody">
+					GUestID:
+					<br />
+					<span class="Tourist">
+						<img src="img/userpic.jpg" />
+						<span class="TouristID">ID:45906</span>
+					</span>
+					<input type="submit" value="GuestLogin" class="TouristLogin" />
+				</div>
+			</div>
+			<div class="notepadRegister">
+				<div class="registerTab">registerID</div>
+				<div class="registerTabBody">
+					<!--<form action="#" method="post">-->
+					userID:&emsp;&emsp;&ensp;
+					<input type="text" name="username" placeholder="ID/username" />
+					<br /> password:&emsp;
+					<input type="password" name="password" placeholder="password" />
+					<br /> confirmPwd:
+					<input type="password" name="password" placeholder="confirm your password" />
+					<br />
+					<input type="submit" value="complete" class="login" />
+					<!--</form>-->
+				</div>
+			</div>
+		</div>
+		<div id="Mobile" class="loginAndReg">
+			<span>
+				该功能尚未完成，敬请期待……
+				Sorry,this function has not been completed yet,please wait...
+			</span>
+			<a id="MobileTime" href="index.html"></a>
+		</div>
+		<footer>
+			<span>
+				<a href="#" class="theFunctionHaveNotTrue">关于我们</a>&ensp;|&ensp;
+				<a href="#" class="theFunctionHaveNotTrue">服务条款</a>&ensp;|&ensp;
+				<a href="#" class="theFunctionHaveNotTrue">反馈建议</a>&ensp;|&ensp;
+				<a href="#" class="theFunctionHaveNotTrue">帮助中心</a>&ensp;|&ensp;
+			 All Rights Reserved.
+			</span>
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/offlineNotepad.js"></script>
+	<script type="text/javascript" src="js/loginLoading.js"></script>
+
+</html>

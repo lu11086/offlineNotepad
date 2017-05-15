@@ -1,0 +1,7 @@
+[
+	{
+		"title": "功能说明  Caption",
+		"article": "欢迎您使用本产品：您可以使用本产品进行一些文字录入工作，也能够插入图片如：<br>Welcome to use this product: you can use this product for some text entry work, but also to insert pictures such as:<br> <img src='../img/userpic.jpg' style='width:100px'/><br>或是插入音频:<br>Or insert a audio: <br> <audio src='../img/TEXT.mp3' controls='controls'>Your browser does not support the audio tag.</audio><br>甚至是视频：<br>Even Video:<br> <video src='../img/TEXT.mp4' controls='controls' style='width:300px'>Your browser does not support the video tag.</video><br>同时，记事本也能插入你的地理信息，记录您所写下记事本的日期。最后希望您多多使用并反馈您宝贵的建议！<br>At the same time, Notepad can also insert your geographic information, record the date you write notepad. Finally, I hope you will use and feedback your valuable suggestions! <br><br>",
+		"Date": "2016-12-21"
+	}
+]

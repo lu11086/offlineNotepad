@@ -1,0 +1,107 @@
+input::-ms-input-placeholder{text-align: center;}
+input::-webkit-input-placeholder{text-align: center;}
+
+.userIf{
+	background-color: rgba(8, 194, 183, 0.8);
+	box-shadow: 0 0 25px #08c2b7;
+}
+
+nav ul {
+	background-color: #00c5ff;
+}
+
+nav li {
+	border-left: 1px solid #0182a8;
+	box-shadow: 0px 0px 5px #0182a8;
+}
+
+.npdWallNew{
+	width: 900px;
+	min-height: 500px;
+	background: url(../img/NewBG.jpg);
+	margin: 0 auto;
+	padding: 40px 50px;
+}
+
+.contralBar {
+	width: 605px;
+	margin-left: 147px;
+	margin-top: -30px;
+	float: left;
+	background-color: #00c5ff;
+	box-shadow: 0 0 25px white;
+}
+
+.contralBar li {
+	height: 25px;
+	width: 150px;
+	float: left;
+	list-style: none;
+	border-left: 1px solid #0182a8;
+	box-shadow: 0px 0px 5px #0182a8;
+	color: white;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	text-align: center;
+	padding: 8px 0;
+}
+
+.contralBar li:hover {
+	background-color: #00fff0;
+	border-left: 1px solid #0182a8;
+	box-shadow: 0px 0px 5px #0182a8;
+	color: white;
+	text-shadow: 0 0 5px #0182a8;
+	cursor: pointer;
+}
+
+.inputTheTitle{
+	height: 50px;
+	width: 605px;
+	margin-left: 147px;
+	border: 1px dashed gray;
+	background-image: url(../img/NewBG.jpg);
+	margin-top: 30px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.inputTheArticle{
+	min-height: 400px;
+	outline:none;
+	margin-top: 10px;
+	border-top: 1px dashed gray;
+	font-size: 17px;
+	line-height: 20px;
+	padding: 10px;
+}
+
+.npdWallNew input[type=button]{
+	width: 125px;
+	height: 25px; 
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 18px;
+	font-family: "幼圆";
+	cursor: pointer;
+	float: right;
+	margin: 5px 10px;
+}
+
+.SaveNewNote{
+	background-color: darkgreen;
+}
+
+.SaveNewNote:hover{
+	background-color: lawngreen;
+}
+
+.CancelNewNote{
+	background-color: darkred;
+}
+
+.CancelNewNote:hover{
+	background-color: red;
+}

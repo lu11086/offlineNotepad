@@ -1,0 +1,81 @@
+.npdWallList{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.oneNpdWall,.lastNpdWall{
+	width: 200px;
+	height: 280px;
+	margin: 0px 25px;
+	margin-top: 20px;
+	float: left;
+	background-image: url(../img/notepad.png);
+	background-size: 100%;
+	font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+	position: relative;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+.oneNpdWall:nth-child(even) {
+	transform: rotate(1deg);
+}
+
+.oneNpdWall:nth-child(odd) {
+	transform: rotate(-2deg);
+}
+
+.oneNpdWall:nth-child(3n) {
+	transform: rotate(-1deg);
+}
+
+.oneNpdWall:hover,.lastNpdWall:hover {
+	transform: rotate(0deg) scale(1.1);
+}
+
+.oneNpdWallTitle{
+	width: 150px;
+	margin-left: 25px;
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+	font-weight: bold;
+	font-size: 19px;
+	
+}
+
+.oneNpdWallArticle{
+	width: 150px;
+	max-height: 95px;
+	margin-left: 25px;
+	display: block;
+	font-size: 17px;
+	font-family: "宋体";
+	color: gray;
+	position: absolute;
+	top: 115px;
+	overflow: hidden;
+}
+
+.oneNpdWallArticle p{
+	position: absolute;
+	top: 0px;
+}
+
+.oneNpdWallDate{
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	color: gray;
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+}
+
+.lastNpdWall img{
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 100px;
+	display: block;
+	cursor: pointer;
+}

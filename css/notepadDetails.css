@@ -1,0 +1,66 @@
+input::-ms-input-placeholder{text-align: center;}
+input::-webkit-input-placeholder{text-align: center;}
+
+.userIf{
+	background-color: rgba(190, 0, 214, 0.8);
+	box-shadow: 0 0 25px #be00d6;
+}
+
+nav ul {
+	background-color: #9e009c;
+}
+
+nav li {
+	border-left: 1px solid #620361;
+	box-shadow: 0px 0px 5px #620361;
+}
+
+.npdWallNew{
+	width: 900px;
+	min-height: 500px;
+	background: url(../img/NewBG.jpg);
+	margin: 0 auto;
+	padding: 40px 50px;
+}
+
+.inputTheTitle{
+	height: 50px;
+	width: 605px;
+	margin-left: 147px;
+	background-image: url(../img/NewBG.jpg);
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+
+.inputTheArticle{
+	min-height: 400px;
+	outline:none;
+	margin-top: 10px;
+	border-top: 1px dashed gray;
+	font-size: 17px;
+	line-height: 20px;
+	padding: 10px;
+}
+
+.npdWallNew input[type=button]{
+	width: 75px;
+	height: 25px; 
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 18px;
+	font-family: "幼圆";
+	cursor: pointer;
+	float: right;
+	margin: 5px 10px;
+}
+
+.CancelNewNote{
+	background-color: darkred;
+}
+
+.CancelNewNote:hover{
+	background-color: red;
+}
